@@ -1,0 +1,5 @@
+#!/bin/bash
+
+word="$1"
+export word
+python  ~/shell_dictionary/shell_dictionary.py "word"
